@@ -1,0 +1,58 @@
+.risk-gauges-container h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.gauges-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.gauge-item {
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.gauge-item h3 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.gauge-value {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.gauge-bar-container {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.gauge-bar {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.pie-chart-container {
+  margin-top: 20px;
+}
+
+.pie-chart-container h3 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+  .gauges-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
